@@ -1,0 +1,31 @@
+.row
+{
+    padding-left: 20cm;
+    
+}  
+
+#toDos 
+{
+    border: 2px solid black;
+    height:auto;
+    width:4cm
+} 
+
+#toDos p 
+{
+    border: 3px solid midnightblue; 
+    border-radius: 2px;
+    color:midnightblue;
+    width: auto;
+    height: auto;
+
+} 
+
+
+#toDos p:hover
+{
+    color: red;
+}
+
+
+
