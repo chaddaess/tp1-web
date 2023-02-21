@@ -25,6 +25,12 @@
 #toDos p:hover
 {
     color: red;
+   
+} 
+
+body 
+{
+    background: linear-gradient(to left,#ffc0cb,#edcdeb,#e1b8e1,rgb(237, 166, 198));
 }
 
 
