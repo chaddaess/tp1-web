@@ -42,13 +42,15 @@ function addToDo() {
 
   supp = newbuttonThing.querySelector(".delbutt");
   supp.addEventListener("click", () => {
-    box.removeChild(newbuttonThing.parentElement);
+  box.removeChild(newbuttonThing.parentElement);
   }
   );
 
 
   tasks = newThing.querySelector("p");
-  tasks.addEventListener("click", (event) => { event.target.style.color = "green"; event.target.innerText += '(done :))' });
+  tasks.addEventListener("click", (event) => { event.target.style.color = "green";
+                                               event.target.classList.toggle("completed");
+                                             });
 
 
   day.value = "";
